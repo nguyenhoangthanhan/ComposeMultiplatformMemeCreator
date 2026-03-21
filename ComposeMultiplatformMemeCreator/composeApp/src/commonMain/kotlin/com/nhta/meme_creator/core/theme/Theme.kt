@@ -3,7 +3,6 @@ package com.nhta.meme_creator.core.theme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 
 val DarkColorScheme = darkColorScheme(
