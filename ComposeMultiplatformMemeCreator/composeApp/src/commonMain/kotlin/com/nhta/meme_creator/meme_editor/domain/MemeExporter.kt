@@ -3,6 +3,7 @@
 package com.nhta.meme_creator.meme_editor.domain
 
 import androidx.compose.ui.unit.IntSize
+import com.nhta.meme_creator.meme_editor.presentation.MemeText
 import kotlin.uuid.ExperimentalUuidApi
 import kotlin.uuid.Uuid
 
