@@ -4,8 +4,8 @@ package com.nhta.meme_creator.meme_editor.data
 
 import androidx.compose.ui.unit.IntSize
 import com.nhta.meme_creator.meme_editor.domain.MemeExporter
-import com.nhta.meme_creator.meme_editor.domain.MemeText
 import com.nhta.meme_creator.meme_editor.domain.SaveToStorageStrategy
+import com.nhta.meme_creator.meme_editor.presentation.MemeText
 
 expect class PlatformMemeExporter: MemeExporter {
     override suspend fun exportMeme(

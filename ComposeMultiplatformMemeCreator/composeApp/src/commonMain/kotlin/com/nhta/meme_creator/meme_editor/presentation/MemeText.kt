@@ -1,4 +1,4 @@
-package com.nhta.meme_creator.meme_editor.domain
+package com.nhta.meme_creator.meme_editor.presentation
 
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.sp

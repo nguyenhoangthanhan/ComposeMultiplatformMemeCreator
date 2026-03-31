@@ -23,8 +23,8 @@ import composemultiplatformmemecreator.composeapp.generated.resources.compose_mu
 @Preview
 fun App() {
     MaterialTheme {
-
         var showContent by remember { mutableStateOf(false) }
+
 
         Column(
             modifier = Modifier
