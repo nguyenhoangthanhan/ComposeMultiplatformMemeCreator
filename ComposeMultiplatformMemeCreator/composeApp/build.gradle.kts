@@ -49,11 +49,21 @@ kotlin {
             implementation(libs.compose.runtime)
             implementation(libs.compose.foundation)
             implementation(libs.compose.material3)
+            implementation(libs.compose.materialIconsExtended)
             implementation(libs.compose.ui)
             implementation(libs.compose.components.resources)
-            implementation(libs.compose.uiToolingPreview)
-            implementation(libs.androidx.lifecycle.viewmodelCompose)
-            implementation(libs.androidx.lifecycle.runtimeCompose)
+            implementation(libs.compose.components.uiToolingPreview)
+
+            implementation(libs.material3.adaptive)
+            implementation(libs.material3.adaptive.layout)
+            implementation(libs.compose.ui.backhandler)
+            implementation(libs.kotlinx.serialization.json)
+            implementation(libs.coil.compose)
+            implementation(libs.jetbrains.compose.navigation)
+
+            implementation(libs.bundles.compose.ui)
+            implementation(libs.bundles.koin.common)
+            implementation(libs.bundles.androidx.lifecycle)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
