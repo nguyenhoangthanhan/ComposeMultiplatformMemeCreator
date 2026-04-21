@@ -18,10 +18,10 @@ data class ConfirmationDialogConfig(
 
 @Composable
 fun ConfirmationDialog(
+    modifier: Modifier = Modifier,
     config: ConfirmationDialogConfig,
     onConfirm: () -> Unit,
     onDismiss: () -> Unit,
-    modifier: Modifier = Modifier
 ) {
     AlertDialog(
         onDismissRequest = onDismiss,
